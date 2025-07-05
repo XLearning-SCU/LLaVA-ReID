@@ -84,7 +84,7 @@ Update `llava-onevision-qwen2-7b-ov/config.json`:
 #### Step 1: Train Retriever
 
 - Set the `stage` in `./config/Interactive-PEDES.yaml` to `train_retriever` 
-- update the `model_path` in `Interactive-PEDES.yaml` accordingly. 
+- update the `data_dir` in `Interactive-PEDES.yaml` accordingly. 
 
 Launch with SLURM:
 
