@@ -162,7 +162,7 @@ CUDA_VISIBLE_DEVICES=0,1 python main_eval.py --config_file=config/Interactive-PE
 ### 📚 Citation
 If this codebase is useful for your work, please cite the following papers:
 
-```BibTeX
+```latex
 @inproceedings{lullava2025,
   title={LLaVA-ReID: Selective Multi-image Questioner for Interactive Person Re-Identification},
   author={Lu, Yiding and Yang, Mouxing and Peng, Dezhong and Hu, Peng and Lin, Yijie and Peng, Xi},
