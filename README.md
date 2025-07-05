@@ -1,6 +1,6 @@
 ### LLaVA-ReID: Selective Multi-image Questioner for Interactive Person Re-Identification
 
-[![arXiv](https://img.shields.io/badge/arXiv-2504.10174-b31b1b.svg)](https://arxiv.org/pdf/2504.10174) [![Poster](https://img.shields.io/badge/ICML-Poster-blue)](https://icml.cc/virtual/2025/poster/44702)
+[![arXiv](https://img.shields.io/badge/arXiv-2504.10174-b31b1b.svg)](https://arxiv.org/pdf/2504.10174) [![Poster](https://img.shields.io/badge/ICML-Poster-blue)](https://github.com/XLearning-SCU/LLaVA-ReID/blob/main/img/poster-wo-wechat.png)
 
 <div align=center>
 <img src="img/illustration.png" alt="LLaVA-ReID" width="50%" />
