@@ -174,7 +174,7 @@ If this codebase is useful for your work, please cite the following papers:
 
 
 
-### 🙏 Acknowledgements
+### ✨ Acknowledgements
 Some components of this code implementation are adopted from: 
 
 - [IRRA](https://github.com/anosorae/IRRA): Learning Fine-grained Relation for Text-to-Image Person Retrieval  (CVPR 2023)
