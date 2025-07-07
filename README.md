@@ -30,7 +30,7 @@ MAX_JOBS=4 pip install flash-attn --no-build-isolation
 
 #### 3. Prepare Dataset and LLaVA Model
 
-Download annotation of [Interactive-PEDES](https://huggingface.co/datasets/XLearning-SCU/Interactive-PEDES-v1) and annotations and organize your dataset as follows:
+Download annotation of [Interactive-PEDES](https://huggingface.co/datasets/XLearning-SCU/Interactive-PEDES-v1) and organize your dataset as follows:
 
 ~~~bash
 tree -L 3
