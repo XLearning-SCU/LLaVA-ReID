@@ -7,7 +7,7 @@ import transformers
 import yaml
 import utils.misc as misc
 from engine_eval import interactive_evaluate
-from model.plugir_reid import PlugIRForPersonReID
+# from model.plugir_reid import PlugIRForPersonReID
 from reid_datasets.interactive_build import build_interactive_dataloader
 from engine_interactive_train import train_one_epoch, prepare_data
 from model.llava_reid import LlavaForPersonReID
@@ -88,8 +88,8 @@ def main(args):
     model_cfg.num_classes = num_classes
     if os.path.exists(model_cfg.question_model_path):
         model = LlavaForPersonReID(model_cfg, {"model_path": model_cfg.question_model_path}, logger)
-    else:
-        model = PlugIRForPersonReID(model_cfg, logger)
+    # else:
+    #     model = PlugIRForPersonReID(model_cfg, logger)
     start_time = time.time()
 
     subset_test = -1
