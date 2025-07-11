@@ -112,7 +112,7 @@ sbatch slurm_launch.sh
 Set the `stage` in `./config/Interactive-PEDES.yaml` to `train_questioner`, then:
 ~~~bash
 srun -p gpu4090_EU --gres=gpu:4 --cpus-per-task 16 -n1 --ntasks-per-node=1 --job-name=llava-reid \
-torchrun --nproc_per_node=4 --master_port=9000 train_llava_reid.py --config_file=config/Interactive-PEDES.yaml
+torchrun  --nnodes=1 --nproc_per_node=4 --master_port=9000 train_llava_reid.py --config_file=config/Interactive-PEDES.yaml
 ~~~
 
 #### Step 4: Warm-up Selector
