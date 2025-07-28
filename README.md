@@ -71,10 +71,10 @@ Our server can connect to internet, Pre-download the following models to your pr
 Update `llava-onevision-qwen2-7b-ov/config.json`:
 ~~~json
 {
-    "_name_or_path": "/public/home/pengxi_lab/project/LLaVA-ReID/llava-onevision-qwen2-7b-ov"
+    "_name_or_path": "/public/home/pengxi_lab/project/LLaVA-ReID/llava-onevision-qwen2-7b-ov",
     "image_aspect_ratio": "pad",
     "mm_vision_tower": "/public/home/pengxi_lab/project/LLaVA-ReID/siglip-so400m-patch14-384",
-  	"mm_spatial_pool_ratio": 2.0,
+    "mm_spatial_pool_ratio": 2.0,
 }
 ~~~
 
