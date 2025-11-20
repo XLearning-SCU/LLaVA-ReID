@@ -157,7 +157,7 @@ self.answer_model = AnswerGeneratorSGLang("http://192.168.49.58:10500/v1", "Qwen
 CUDA_VISIBLE_DEVICES=0,1 python main_eval.py --config_file=config/Interactive-PEDES.yaml
 ~~~
 
-We have uploaded the checkpoint of LLaVA-ReID, you can download it at [BaiduCloud](https://pan.baidu.com/s/1nL5-lJ7kNiWce9r7LFyaaA?pwd=by2a) with extract code `by2a`
+We have uploaded the checkpoint of LLaVA-ReID, you can download it at [BaiduCloud](https://pan.baidu.com/s/1nL5-lJ7kNiWce9r7LFyaaA?pwd=by2a) with extract code `by2a` and [Google Drive](https://drive.google.com/file/d/1NBcnjJzc4cXySlhAnAg-xvwdgnaMHvWY/view?usp=sharing).
 
 ### 📚 Citation
 If this codebase is useful for your work, please cite the following papers:
